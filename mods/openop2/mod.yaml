@@ -206,14 +206,14 @@ Missions:
 	./mods/cnc/missions.yaml
 
 MapGrid:
-	TileSize: 24,24
+	TileSize: 32,32
 	Type: Rectangular
 
 SupportsMapsFrom: cnc
 
 SoundFormats: Aud, Wav
 
-SpriteFormats: ShpTD, TmpTD, ShpTS, TmpRA
+SpriteFormats: ShpTD, TmpTD, ShpTS, TmpRA, PngSheet
 
 SpriteSequenceFormat: TilesetSpecificSpriteSequence
 	TilesetExtensions:

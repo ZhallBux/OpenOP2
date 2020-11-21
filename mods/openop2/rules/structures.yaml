@@ -2,7 +2,7 @@ FACT:
 	Inherits: ^BaseBuilding
 	Inherits@shape: ^3x2Shape
 	Selectable:
-		Bounds: 72,48
+		Bounds: 128,96
 	Valued:
 		Cost: 3500
 	Tooltip:
@@ -139,7 +139,7 @@ NUKE:
 	Inherits: ^BaseBuilding
 	Inherits@shape: ^2x2Shape
 	Selectable:
-		Bounds: 48,48
+		Bounds: 64,64
 	HitShape:
 		TargetableOffsets: 630,299,0
 	Valued:
@@ -470,7 +470,7 @@ WEAP:
 			TopLeft: -1536, -1024
 			BottomRight: 1536, 512
 	Valued:
-		Cost: 2000
+		Cost: 1000
 	Tooltip:
 		Name: Weapons Factory
 	ProvidesPrerequisite:

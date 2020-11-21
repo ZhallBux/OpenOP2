@@ -3,6 +3,7 @@ General:
 	Id: TEMPERAT
 	EditorTemplateOrder: Terrain, Debris, Road, Cliffs, Beach, River, Bridge
 	HeightDebugColors: AA0000
+	SheetSize: 4096
 
 Terrain:
 	TerrainType@Beach:
@@ -1787,3 +1788,665 @@ Templates:
 		Tiles:
 			0: Rock
 			1: Rock
+	Template@193:
+		Id: 193
+		Images: mud0000.tem
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+		
+	Template@194:
+		Id: 194
+		Images: rock0000.tem
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+		
+	Template@195:
+		Id: 195
+		Images: sand0000.tem
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+			
+	Template@196:
+		Id: 196
+		Images: tilerockbase.tem
+		PickAny: True
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+			1: Clear
+			2: Clear
+			3: Clear
+			4: Clear
+			5: Clear
+			6: Clear
+			7: Clear
+			8: Clear
+			9: Clear
+			10: Clear
+			11: Clear
+			12: Clear
+			13: Clear
+			14: Clear
+			15: Clear
+			16: Clear
+			17: Clear
+			18: Clear
+			19: Clear
+			20: Clear
+			21: Clear
+			22: Clear
+			23: Clear
+			24: Clear
+			25: Clear
+			26: Clear
+			27: Clear
+			28: Clear
+			29: Clear
+			30: Clear
+			31: Clear
+			32: Clear
+			
+	Template@197:
+		Id: 197
+		Images: tilerocksmvol.tem
+		Size: 3,3
+		Categories: Terrain
+		Tiles:
+			0: Rock
+			1: Rock
+			2: Rock
+			3: Rock
+			4: Rock
+			5: Rock
+			6: Rock
+			7: Rock
+			8: Clear
+			
+	Template@198:
+		Id: 198
+		Images: tilemudbase.tem
+		PickAny: True
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+			1: Clear
+			2: Clear
+			3: Clear
+			4: Clear
+			5: Clear
+			6: Clear
+			7: Clear
+			8: Clear
+			9: Clear
+			10: Clear
+			11: Clear
+			12: Clear
+			13: Clear
+			14: Clear
+			15: Clear
+			16: Clear
+			17: Clear
+			18: Clear
+			19: Clear
+			20: Clear
+			21: Clear
+			22: Clear
+			23: Clear
+			24: Clear
+			25: Clear
+			26: Clear
+			27: Clear
+			28: Clear
+			29: Clear
+			30: Clear
+			31: Clear
+
+	Template@199:
+		Id: 199
+		Images: tilemudcrater.tem
+		Size: 3,2
+		Categories: Terrain
+		Tiles:
+			0: Clear
+			1: Clear
+			2: Clear
+			3: Clear
+			4: Clear
+			5: Clear
+			
+	Template@200:
+		Id: 200
+		Images: tilemudcrater2.tem
+		Size: 2,3
+		Categories: Terrain
+		Tiles:
+			0: Clear
+			1: Clear
+			2: Clear
+			3: Clear
+			4: Clear
+			5: Clear
+			
+	Template@201:
+		Id: 201
+		Images: tilemudcliffcorner1.tem
+		Size: 3,6
+		Categories: Cliffs
+		Tiles:
+			0: Rock
+			1: Rock
+			2: Clear
+			3: Rock
+			4: Rock
+			5: Clear
+			6: Rock
+			7: Rock
+			8: Clear
+			9: Clear
+			10: Rock
+			11: Rock
+			12: Clear
+			13: Rock
+			14: Rock
+			15: Clear
+			16: Clear
+			17: Rock
+			
+	Template@202:
+		Id: 202
+		Images: tilemudcliffcorner3.tem
+		Size: 3,3
+		Categories: Cliffs
+		Tiles:
+			0: Rock
+			1: Rock
+			2: Rock
+			3: Rock
+			4: Rock
+			5: Clear
+			6: Rock
+			7: Rock
+			8: Clear
+			
+	Template@203:
+		Id: 203
+		Images: tilemudcliffhor2.tem
+		Size: 3,3
+		Categories: Cliffs
+		Tiles:
+			0: Rock
+			1: Rock
+			2: Rock
+			3: Rock
+			4: Rock
+			5: Rock
+			6: Rock
+			7: Rock
+			8: Rock
+			
+	Template@204:
+		Id: 204
+		Images: tilemudcliffcap2.tem
+		Size: 3,3
+		Categories: Cliffs
+		Tiles:
+			0: Rock
+			1: Rock
+			2: Clear
+			3: Rock
+			4: Rock
+			5: Rock
+			6: Rock
+			7: Clear
+			8: Clear
+			
+	Template@205:
+		Id: 205
+		Images: tilemudblemish.tem
+		Size: 2,2
+		Categories: Cliffs
+		Tiles:
+			0: Clear
+			1: Clear
+			2: Clear
+			3: Clear
+			
+	Template@206:
+		Id: 206
+		Images: tilemudblemish2.tem
+		Size: 2,2
+		Categories: Cliffs
+		Tiles:
+			0: Clear
+			1: Clear
+			2: Clear
+			3: Clear
+			
+	Template@207:
+		Id: 207
+		Images: tilemudboulder1.tem
+		Size: 2,2
+		Categories: Cliffs
+		Tiles:
+			0: Rock
+			1: Rock
+			2: Rock
+			3: Rock
+			
+	Template@208:
+		Id: 208
+		Images: tilemudboulder2.tem
+		Size: 3,3
+		Categories: Cliffs
+		Tiles:
+			0: Rock
+			1: Rock
+			2: Rock
+			3: Rock
+			4: Rock
+			5: Rock
+			6: Rock
+			7: Rock
+			8: Rock
+			
+	Template@209:
+		Id: 209
+		Images: tilemudcracks.tem
+		Size: 1,1
+		PickAny: True
+		Categories: Cliffs
+		Tiles:
+			0: Clear
+			1: Clear
+			2: Clear
+			3: Clear
+			4: Clear
+			5: Clear
+			6: Clear
+			7: Clear
+			8: Clear
+			9: Clear
+			10: Clear
+			11: Clear
+			12: Clear
+			13: Clear
+			14: Clear
+			15: Clear
+			16: Clear
+			
+	Template@210:
+		Id: 210
+		Images: tilemudcliffcorner2.tem
+		Size: 2,3
+		Categories: Cliffs
+		Tiles:
+			0: Rock
+			1: Rock
+			2: Clear
+			3: Rock
+			4: Rock
+			5: Rock
+			
+	Template@211:
+		Id: 211
+		Images: tilemudcliffhor1.tem
+		Size: 3,3
+		Categories: Cliffs
+		Tiles:
+			0: Rock
+			1: Rock
+			2: Rock
+			3: Rock
+			4: Rock
+			5: Rock
+			6: Rock
+			7: Rock
+			8: Rock
+			
+	Template@212:
+		Id: 212
+		Images: tilemudcliffcap1.tem
+		Size: 3,3
+		Categories: Cliffs
+		Tiles:
+			0: Clear
+			1: Clear
+			2: Rock
+			3: Rock
+			4: Rock
+			5: Rock
+			6: Clear
+			7: Clear
+			8: Rock
+			
+	Template@213:
+		Id: 213
+		Images: tilemudcliffcorner4.tem
+		Size: 3,3
+		Categories: Cliffs
+		Tiles:
+			0: Rock
+			1: Rock
+			2: Rock
+			3: Rock
+			4: Rock
+			5: Rock
+			6: Rock
+			7: Rock
+			8: Rock
+			
+	Template@214:
+		Id: 214
+		Images: tilemudcliffcorner5.tem
+		Size: 3,3
+		Categories: Cliffs
+		Tiles:
+			0: Rock
+			1: Rock
+			2: Rock
+			3: Rock
+			4: Rock
+			5: Rock
+			6: Rock
+			7: Rock
+			8: Rock
+			
+	Template@215:
+		Id: 215
+		Images: tilemudcliffedge1.tem
+		Size: 3,1
+		Categories: Cliffs
+		Tiles:
+			0: Rock
+			1: Rock
+			2: Rock
+			
+	Template@216:
+		Id: 216
+		Images: tilemudcliffedge2.tem
+		Size: 3,1
+		Categories: Cliffs
+		Tiles:
+			0: Rock
+			1: Rock
+			2: Rock
+			
+	Template@217:
+		Id: 217
+		Images: tilemudcliffcorner6.tem
+		Size: 3,3
+		Categories: Cliffs
+		Tiles:
+			0: Rock
+			1: Rock
+			2: Rock
+			3: Rock
+			4: Rock
+			5: Clear
+			6: Rock
+			7: Clear
+			8: Clear
+			
+	Template@218:
+		Id: 218
+		Images: tilemudcliffcorner7.tem
+		Size: 3,3
+		Categories: Cliffs
+		Tiles:
+			0: Rock
+			1: Rock
+			2: Rock
+			3: Rock
+			4: Rock
+			5: Clear
+			6: Rock
+			7: Clear
+			8: Clear
+			
+	Template@219:
+		Id: 219
+		Images: tilemudcliffcorner8.tem
+		Size: 3,3
+		Categories: Cliffs
+		Tiles:
+			0: Rock
+			1: Rock
+			2: Clear
+			3: Rock
+			4: Rock
+			5: Clear
+			6: Rock
+			7: Rock
+			8: Rock
+			
+	Template@220:
+		Id: 220
+		Images: tilemudcliffver1.tem
+		Size: 3,3
+		Categories: Cliffs
+		Tiles:
+			0: Clear
+			1: Rock
+			2: Rock
+			3: Clear
+			4: Rock
+			5: Rock
+			
+	Template@221:
+		Id: 221
+		Images: tilemudcliffedge3.tem
+		Size: 3,1
+		Categories: Cliffs
+		Tiles:
+			0: Rock
+			1: Rock
+			2: Clear
+			
+	Template@222:
+		Id: 222
+		Images: tilemudcliffcorner9.tem
+		Size: 3,3
+		Categories: Cliffs
+		Tiles:
+			0: Rock
+			1: Rock
+			2: Rock
+			3: Clear
+			4: Rock
+			5: Rock
+			6: Clear
+			7: Clear
+			8: Clear
+			
+	Template@223:
+		Id: 223
+		Images: tilemudcliffver2.tem
+		Size: 2,5
+		Categories: Cliffs
+		Tiles:
+			0: Rock
+			1: Rock
+			2: Rock
+			3: Rock
+			4: Rock
+			5: Rock
+			6: Rock
+			7: Rock
+			8: Rock
+			9: Rock
+			
+	Template@224:
+		Id: 224
+		Images: tilemudcliffver3.tem
+		Size: 2,5
+		Categories: Cliffs
+		Tiles:
+			0: Rock
+			1: Rock
+			2: Rock
+			3: Rock
+			4: Rock
+			5: Rock
+			6: Rock
+			7: Rock
+			8: Rock
+			9: Rock
+			
+	Template@225:
+		Id: 225
+		Images: tilemudcracks2.tem
+		Size: 1,1
+		PickAny: True
+		Categories: Terrain
+		Tiles:
+			0: Clear
+			1: Clear
+			2: Clear
+			3: Clear
+			4: Clear
+			5: Clear
+			6: Clear
+			7: Clear
+			
+	Template@226:
+		Id: 226
+		Images: tilemudimpact.tem
+		Size: 1,1
+		PickAny: True
+		Categories: Terrain
+		Tiles:
+			0: Clear
+			1: Clear
+			2: Clear
+			3: Clear
+			4: Clear
+			5: Clear
+			
+	Template@227:
+		Id: 227
+		Images: tilemudveggies.tem
+		PickAny: True
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+			1: Clear
+			2: Clear
+			3: Clear
+			4: Clear
+			5: Clear
+			6: Clear
+			7: Clear
+			8: Clear
+			9: Clear
+			10: Clear
+			11: Clear
+			12: Clear
+			13: Clear
+			14: Clear
+			15: Clear
+			16: Clear
+			17: Clear
+			18: Clear
+			19: Clear
+			20: Clear
+			
+	Template@228:
+		Id: 228
+		Images: tilemudspacepartssolo.tem
+		PickAny: True
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+			1: Clear
+			2: Clear
+			3: Clear
+			4: Clear
+			5: Clear
+			6: Clear
+			7: Clear
+			8: Clear
+			9: Clear
+			
+	Template@229:
+		Id: 229
+		Images: tilemudspaceparts1.tem
+		Size: 2,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+			1: Clear
+			
+	Template@230:
+		Id: 230
+		Images: tilemudspaceparts2.tem
+		Size: 2,2
+		Categories: Terrain
+		Tiles:
+			0: Clear
+			1: Clear
+			2: Clear
+			3: Clear
+			
+	Template@231:
+		Id: 231
+		Images: tilemudspaceparts3.tem
+		Size: 2,2
+		Categories: Terrain
+		Tiles:
+			0: Clear
+			1: Clear
+			2: Clear
+			3: Clear
+			
+	Template@232:
+		Id: 232
+		Images: tilemudspaceparts4.tem
+		Size: 2,2
+		Categories: Terrain
+		Tiles:
+			0: Clear
+			1: Clear
+			2: Clear
+			3: Clear
+			
+	Template@233:
+		Id: 233
+		Images: tilemudspaceparts5.tem
+		Size: 3,2
+		Categories: Terrain
+		Tiles:
+			0: Clear
+			1: Clear
+			2: Clear
+			3: Clear
+			4: Clear
+			5: Clear
+			
+	Template@234:
+		Id: 234
+		Images: tilemudbulldozed.tem
+		PickAny: True
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+			1: Clear
+			2: Clear
+			3: Clear
+			4: Clear
+			5: Clear
+			6: Clear
+			7: Clear

@@ -12,7 +12,7 @@ mcv.destroyed:
 		ZOffset: -512
 
 harv:
-	idle:
+	idle: 
 		Facings: 32
 		UseClassicFacingFudge: True
 	harvest:
@@ -59,13 +59,12 @@ bggy.destroyed:
 		ZOffset: -512
 
 mtnk:
-	idle:
-		Facings: 32
-		UseClassicFacingFudge: True
-	turret:
-		Start: 32
-		Facings: 32
-		UseClassicFacingFudge: True
+	idle: bits/edenLynx16.png
+		Facings: 16
+		AddExtension: False
+	turret: bits/edenEmp.png
+		Facings: 16
+		AddExtension: False
 	muzzle: gunfire2
 		Length: *
 	icon: mtnkicnh.tem
@@ -130,14 +129,14 @@ htnk.destroyed:
 		UseClassicFacingFudge: True
 		ZOffset: -512
 
-jeep:
-	idle:
-		Facings: 32
-		UseClassicFacingFudge: True
-	turret:
-		Start: 32
-		Facings: 32
-		UseClassicFacingFudge: True
+jeep: 
+	idle: bits/edenLynx16.png
+		Facings: 16
+		AddExtension: False
+	turret: bits/edenLaser.png
+		Start: 0
+		Facings: 8
+		AddExtension: False
 	muzzle: minigun
 		Length: 6
 		Facings: 8

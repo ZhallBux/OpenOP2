@@ -1,45 +1,55 @@
-fact:
+fact: 
+	Defaults:
+		AddExtension: False
 	build:
 		Start: 4
 		Length: 20
 		Tick: 100
-	idle:
-		Length: 4
-		Tick: 100
-	damaged-idle:
-		Start: 24
-		Length: 4
-		Tick: 100
+		AddExtension: True
+	idle: bits/structureFactory.png
+		Length: 1
+	damaged-idle: bits/structureFactory.png
+		Start: 1
+		Length: 1
 	damaged-build:
 		Start: 28
 		Length: 20
 		Tick: 100
+		AddExtension: True
 	dead:
 		Start: 48
 		Tick: 800
+		AddExtension: True
 	make: factmake
 		Length: *
 		Tick: 80
+		AddExtension: True
 	bib: bib2
+		AddExtension: True
 		UseTilesetExtension: true
 		Length: *
 	icon: facticnh
+		AddExtension: True
 
 nuke:
-	idle:
-		Length: 4
-		Tick: 1000
-	damaged-idle:
-		Start: 4
-		Length: 4
-		Tick: 1000
-	dead:
-		Start: 8
-		Tick: 800
-	make: nukemake
+	Defaults:
+		AddExtension: False
+	idle: bits/nuke.png
+		Length: 1
+	damaged-idle: bits/nuke.png
+		Start: 1
+		Length: 1
+	dead: bits/collapseSmall.png
+		Length: *
+		Tick: 80
+	dead: bits/edenTokamakCollapse.png
+		Length: *
+		Tick: 80
+	make: bits/edenTokamakBuild.png
 		Length: *
 		Tick: 80
 	bib: bib3
+		AddExtension: True	
 		UseTilesetExtension: true
 		Length: *
 	icon: nukeicnh.tem
